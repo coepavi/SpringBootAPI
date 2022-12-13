@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class ControllerApi {
 
-	@GetMapping("/getdata")
+	@GetMapping("/getdataapi")
 	public String getdata() {
 		System.out.println("Get API triggered");
 		return ("Get Api sent data back");
